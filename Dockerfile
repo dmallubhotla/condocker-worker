@@ -8,4 +8,3 @@ RUN apt-get update
 RUN apt install docker.io -y
 
 RUN ["docker", "--version"]
-
